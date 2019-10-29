@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newspaperbangla"
+    tools:context="newspaperdemo.example.com.newspaper.englishNews">
+
+    <Button
+        android:id="@+id/buttonBanglaNews24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Bangla News 24"
+        android:textColor="#375E97"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#e1e1e1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp" />
+
+    <Button
+        android:id="@+id/bdNews24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="bd news 24"
+        android:textColor="#A43820"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#819abe"
+        android:layout_below="@+id/dailyAsianAge"
+        android:layout_alignStart="@+id/buttonBanglaNews24"
+        android:layout_alignEnd="@+id/buttonBanglaNews24" />
+
+    <Button
+        android:id="@+id/dailyAsianAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Asian Age"
+        android:textColor="#fff201"
+        android:textSize="22sp"
+        android:textStyle="italic|bold"
+        android:background="#e1aaff"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/buttonBanglaNews24"
+        android:layout_alignEnd="@+id/dailyStar"
+        android:layout_alignStart="@+id/dailyStar" />
+
+    <Button
+        android:id="@+id/dailyStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bdNews24"
+        android:layout_marginTop="30dp"
+        android:text="The Daily Star"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#ffffff"
+        android:layout_alignEnd="@+id/bdToday" />
+
+    <Button
+        android:id="@+id/newsToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bdNews24"
+        android:layout_alignStart="@+id/bdNews24"
+        android:layout_below="@+id/dailyStar"
+        android:layout_marginTop="29dp"
+        android:text="The News Today"
+        android:textColor="#375E97"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        android:background="#d1feff"/>
+
+    <Button
+        android:id="@+id/bdToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="The Bangladesh Today"
+        android:textColor="#ff0d00"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#87fc7f"
+        android:layout_below="@+id/newsToday"
+        android:layout_alignStart="@+id/newsToday" />
+</RelativeLayout>

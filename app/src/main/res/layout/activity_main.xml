@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newspaperbangla"
+    tools:context="newspaperdemo.example.com.newspaper.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:background="#F4CC70"
+        android:gravity="center"
+        android:text="All BD Newspaper Online"
+        android:textColor="#FF420E"
+        android:textSize="45sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonForBanglaNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:background="#375E97"
+        android:text="CLICK HERE"
+        android:textColor="#EC96A4"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonForBanglaNews"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="27dp"
+        android:background="#C4DFE6"
+        android:gravity="center"
+        android:text="All English Newspaper 0nline"
+        android:textColor="#A43820"
+        android:textSize="45sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/buttonForEnglishNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonForBanglaNews"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="3dp"
+        android:background="#E6D72A"
+        android:text="CLICK HERE"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/buttonForLiveCricket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonForEnglishNews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#2d6736"
+        android:text=" Live Cricket ! "
+        android:textColor="#fefffdfe"
+        android:textSize="34sp"
+        android:textStyle="italic|bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonForSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonForLiveCricket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fafbfe"
+        app:srcCompat="@drawable/google" />
+
+
+</RelativeLayout>

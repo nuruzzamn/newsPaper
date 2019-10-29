@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cricket"
+    tools:context="newspaperdemo.example.com.newspaper.ForLiveCricket">
+
+    <Button
+        android:id="@+id/buttonForLiveScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="181dp"
+        android:text=" Live cricket Scores ! "
+        android:textStyle="bold|normal"
+        android:textSize="25sp"
+        android:background="#93fca3"
+        android:textColor="#fa3004"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text=" Online Tv "
+        android:layout_marginStart="30dp"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:background="#C4DFE6"
+        android:textColor="#040404"
+        android:layout_below="@+id/buttonForLiveScore"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonFm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonTv"
+        android:layout_marginEnd="28dp"
+        android:background="#F4CC70"
+        android:text="fm"
+        android:textColor="#2d6736"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+
+
+        />
+
+</RelativeLayout>

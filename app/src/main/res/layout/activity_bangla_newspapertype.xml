@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/newspaperbangla"
+    android:layout_height="match_parent"
+    tools:context="newspaperdemo.example.com.newspaper.banglaNewspapertype">
+
+    <Button
+        android:id="@+id/banglaNewspaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="65dp"
+        android:text="Bangla Newspaper"
+        android:textColor="#A43820"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#E6D72A"/>
+
+    <Button
+        android:id="@+id/ePaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/banglaNewspaper"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:text="E-Paper"
+        android:background="#A43820"
+        android:textColor="#E6D72A"
+        android:textSize="26sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/banglaNewspaper"
+        android:layout_alignStart="@+id/banglaNewspaper"
+        android:layout_below="@+id/ePaper"
+        android:layout_marginTop="57dp"
+        android:text="Business"
+        android:textColor="#A43820"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#b8ffff"/>
+
+    <Button
+        android:id="@+id/jobNewspaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ePaper"
+        android:layout_below="@+id/business"
+        android:layout_marginTop="55dp"
+        android:text=" Job Newspaper"
+        android:textColor="#65ffff"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#1a3f2d"
+
+
+
+        />
+</RelativeLayout>

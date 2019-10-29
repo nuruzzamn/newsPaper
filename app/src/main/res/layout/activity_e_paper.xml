@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/epaper"
+    tools:context="newspaperdemo.example.com.newspaper.ePaper">
+
+    <Button
+        android:id="@+id/buttonEprothomAlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="61dp"
+        android:text="ই-প্রথম আলো"
+        android:textColor="#060606"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:background="#f4fcfb"/>
+
+    <Button
+        android:id="@+id/buttonEkalerKontho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="ই-কালের কণ্ঠ"
+        android:textColor="#FF420E"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:background="#f4fcfb"
+        android:layout_below="@+id/buttonEprothomAlo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonEprothomAlo"
+        android:layout_below="@+id/buttonEkalerKontho"
+        android:layout_marginTop="53dp"
+        android:text="ই-সমকাল"
+        android:layout_alignEnd="@+id/buttonEprothomAlo"
+        android:textColor="#A43820"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:background="#f4fcfb"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonEkalerKontho"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="55dp"
+        android:text="ই-বণিক বার্তা"
+        android:layout_alignEnd="@+id/buttonEkalerKontho"
+        android:textColor="#375E97"
+        android:textSize="36sp"
+        android:textStyle="italic|bold"
+        android:background="#f4fcfb"/>
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newspaper"
+    tools:context="newspaperdemo.example.com.newspaper.JobNews">
+
+    <Button
+        android:id="@+id/buttonBdJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="bd jobs"
+        android:textColor="#FF420E"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#e1e1e1"
+        android:layout_marginStart="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonChakri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chakri"
+        android:textColor="#A43820"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:background="#c1d4f0"
+        android:layout_below="@+id/buttonBdJobs"
+        android:layout_alignEnd="@+id/buttonLekhaPoraBd"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/buttonJobCircular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobscircular24"
+        android:textColor="#65ffff"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:background="#1a3f2d"
+        android:layout_below="@+id/buttonChakri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/buttonBdJobToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bdjobstoday"
+        android:textColor="#375E97"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:background="#ffaeae"
+        android:layout_below="@+id/buttonJobCircular"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/buttonTotalJobBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="totaljobsbd"
+        android:background="#A43820"
+        android:textColor="#E6D72A"
+        android:textSize="26sp"
+        android:textStyle="italic|bold"
+        android:layout_below="@+id/buttonBdJobToday"
+        android:layout_alignStart="@+id/buttonJobCircular"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/buttonJobsExamsResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jobsexamresult"
+        android:textColor="#ff7715"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:background="#b1fca7"
+        android:layout_below="@+id/buttonTotalJobBd"
+        android:layout_alignStart="@+id/buttonChakri"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/buttonLekhaPoraBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lekhaporabd"
+        android:textColor="#A43820"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:background="#E6D72A"
+        android:layout_below="@+id/buttonJobsExamsResult"
+        android:layout_alignStart="@+id/buttonBdJobs"
+        android:layout_marginTop="13dp" />
+</RelativeLayout>

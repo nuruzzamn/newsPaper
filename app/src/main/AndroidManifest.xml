@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="newspaperdemo.example.com.newspaper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".banglaNews" />
+        <activity android:name=".englishNews" />
+        <activity android:name=".banglaNewspapertype" />
+        <activity android:name=".ePaper" />
+        <activity android:name=".Bussiness" />
+        <activity android:name=".JobNews" />
+        <activity android:name=".EprothomAlo" />
+        <activity android:name=".EkalerKontho" />
+        <activity android:name=".Eshamakal" />
+        <activity android:name=".EbonikBarta" />
+        <activity android:name=".BctgStock" />
+        <activity android:name=".BdhakaStock" />
+        <activity android:name=".BshareMarket" />
+        <activity android:name=".BstockBangladesh" />
+        <activity android:name=".BdJobs" />
+        <activity android:name=".Chakri" />
+        <activity android:name=".JobCircular" />
+        <activity android:name=".BdJobToday" />
+        <activity android:name=".TotalJobBd" />
+        <activity android:name=".JobsExamsResult" />
+        <activity android:name=".LekhaPoraBd" />
+        <activity android:name=".NprothomAlo" />
+        <activity android:name=".Nshamakal" />
+        <activity android:name=".NAmadershomoy" />
+        <activity android:name=".Namardesh" />
+        <activity android:name=".Nkalerkontho" />
+        <activity android:name=".Nittefaq" />
+        <activity android:name=".NNayaDiganta" />
+        <activity android:name=".NJaiJaiDin" />
+        <activity android:name=".NBangladeshratidin" />
+        <activity android:name=".NDailyInqilab" />
+        <activity android:name=".NManabZamin" />
+        <activity android:name=".NDailySangram" />
+        <activity android:name=".BanglaNews24" />
+        <activity android:name=".BdNews24" />
+        <activity android:name=".DailyAsianAge" />
+        <activity android:name=".DailyStar" />
+        <activity android:name=".NewsToday" />
+        <activity android:name=".BdToday" />
+        <activity android:name=".ForLiveCricket" />
+        <activity android:name=".Google" />
+        <activity android:name=".ForLiveScore" />
+        <activity android:name=".ForTv" />
+        <activity android:name=".ForFm"></activity>
+    </application>
+
+</manifest>

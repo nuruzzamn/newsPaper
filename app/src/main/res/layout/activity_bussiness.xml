@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forbussiness"
+    tools:context="newspaperdemo.example.com.newspaper.Bussiness">
+
+    <Button
+        android:id="@+id/ctgStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Chittagong Stock Exchange"
+        android:layout_marginEnd="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#040404"
+        android:textSize="16sp"
+        android:textStyle="italic|bold"
+        android:background="#fc6995"
+        />
+
+    <Button
+        android:id="@+id/dhakaStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ctgStock"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="43dp"
+        android:text="Dhaka Stock Exchange"
+        android:textColor="#ff9260"
+        android:textSize="22sp"
+        android:textStyle="italic|bold"
+        android:background="#1a3f2d"/>
+
+    <Button
+        android:id="@+id/shareMarket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ctgStock"
+        android:layout_alignStart="@+id/ctgStock"
+        android:layout_centerVertical="true"
+        android:text="Share Market BD"
+        android:textColor="#65ffff"
+        android:textSize="22sp"
+        android:textStyle="italic|bold"
+        android:background="#1c3543"/>
+
+    <Button
+        android:id="@+id/stockBangladesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dhakaStock"
+        android:layout_alignStart="@+id/dhakaStock"
+        android:layout_below="@+id/shareMarket"
+        android:layout_marginTop="40dp"
+        android:text="Stock Bangladesh"
+        android:textColor="#1c3543"
+        android:textSize="22sp"
+        android:textStyle="italic|bold"
+        android:background="#a1a6d6"/>
+</RelativeLayout>
